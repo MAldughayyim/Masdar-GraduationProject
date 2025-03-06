@@ -1,0 +1,44 @@
+
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    position: relative;
+  }
+  
+  .styled-table {
+    width: 50%; /* Adjust as needed */
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .styled-table thead tr {
+    background-color:#232442;
+    color: white;
+    text-align: left;
+  }
+  
+  .styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .styled-table tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
